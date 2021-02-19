@@ -1,4 +1,5 @@
 JAVASCRIPT HTML DOM
+
 setInterval() - mouseOver() - mouseOut() - mDown() -  mUp() - .appendChild() - removeChild() - .replaceChild()
 
 
