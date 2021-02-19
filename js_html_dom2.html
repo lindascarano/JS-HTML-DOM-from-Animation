@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css_html_dom2.css">
+</head>
+
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+    <h3>1. ANIMATIONS</h3>
+    <p>Premi il pulsante MUOVITI! per far muovere la pallina:</p>
+    <button class="button1" onclick="myMove()">MUOVITI!</button>
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+
+    <h3>2. JavaScript HTML DOM Events</h3>
+    <h4>2.1 mouseOver, mouseOut and onclick</h4>
+    <div class="divisione" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Sposta il mouse sopra di me!
+    </div>
+
+    <div class="divisione" onmousedown="mDown(this)" onmouseup="mUp(this)">
+        Cliccami!
+    </div>
+
+    <h4>2.2 Execute a JavaScript when a draggable element enters a drop target</h4>
+    <p>Sposta la scritta SPOSTAMI! da un rettangolo all'altro cliccandola e trascinandola:</p>
+    <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">SPOSTAMI!</p>
+    </div>
+    <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <p id="demo" style="clear:both;"></p>
+
+    <h3>3. Creating New HTML Elements (Nodes)</h3>
+    <div id="div1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+    </div>
+
+    <h4>3.1 Premi il bottone e rimuovi il paragrafo con scritto "This is a paragraph." cha ha id="p1" </h4>
+    <button id="remove" class="button1" onclick="myRemove()">REMOVE!</button>
+
+    <h4>3.2 Replacing HTML Elements </h4>
+    <button id="replace" class="button1" onclick="myReplace()">REPLACE!</button>
+
+    <h4>3.3 document.documentElement</h4>
+    <button id="alertList" class="button1" onclick="myListHTML()">LISTA DEL CODICE HTML DI QUESTA PAGINA</button>
+
+
+
+
+    <script src="js_html_dom2.js"></script>
+</body>
+
+</html>
