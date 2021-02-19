@@ -1,0 +1,56 @@
+/*1. CSS code for JavaScript animations*/
+
+.button1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgb(228, 178, 71);
+    color: rgb(255, 255, 255);
+    border: 1px dotted grey;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: rgba(224, 160, 171, 0.7);
+}
+
+#animate {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgb(228, 178, 71);
+    border: 2px solid gray;
+}
+
+/*2. The onmouseover and onmouseout Events*/
+
+.divisione {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(228, 178, 71);
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 10px;
+}
+
+/*2. CSS for JavaScript when a draggable element enters a drop target*/
+
+.droptarget {
+    float: left;
+    background: rgba(224, 160, 171, 0.7);
+    color: rgb(100, 91, 91);
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #aaaaaa;
+}
